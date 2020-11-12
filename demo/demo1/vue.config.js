@@ -17,6 +17,8 @@ module.exports = {
         config.resolve.alias
             .set('vue$', 'vue/dist/vue.esm.js')
             .set('@', path.resolve(__dirname, './src'))
+         // 修复HMR
+         config.resolve.symlinks(true);
     },
     configureWebpack: (config) => {
         if (process.env.NODE_ENV === 'production') {
