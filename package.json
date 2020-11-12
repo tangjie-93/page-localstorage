@@ -1,24 +1,24 @@
 {
-    "description": "这是一个用于页面间通信的库，用于不适用keep-alive进行缓存时的一种解决方案",
-    "keywords": [
-        "localstoage"
-    ],
-    "license": "MIT",
-    "name": "@tangjie/page-localstorage",
-    "main": "lib/index.js",
-    "repository": {
-        "type": "git",
-        "url": ""
-    },
-    "version": "1.0.3",
-    "directories": {
-        "lib": "lib"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "tangjie (https://github.com/tangjie-93)",
-    "devDependencies": {
-        "eslint": "^7.13.0"
-    }
+  "description": "这是一个用于页面间通信的库，用于不适用keep-alive进行缓存时的一种解决方案",
+  "keywords": [
+      "localstoage"
+  ],
+  "license": "MIT",
+  "name": "@tangjie/page-localstorage",
+  "main": "lib/index.js",
+  "repository": {
+      "type": "git",
+      "url": ""
+  },
+  "version": "1.0.4",
+  "directories": {
+      "lib": "lib"
+  },
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tangjie (https://github.com/tangjie-93)",
+  "devDependencies": {
+      "eslint": "^7.13.0"
+  }
 }
