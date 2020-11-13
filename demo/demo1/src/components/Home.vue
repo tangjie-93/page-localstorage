@@ -8,15 +8,15 @@
 		<button @click="removeCookie('UserInfo')">清除用户管理页面缓存</button>
 		<button @click="removeCookie('Detail')">清除详情页面缓存</button>
 		<button @click="removeCookie()">清除所有页面的缓存</button>
-		<router-link to="/detail"/>
-    	<router-link to="/userinfo"/>
-		<router-view/>
+		<router-link to="/detail" />
+		<router-link to="/userinfo" />
+		<router-view />
 	</div>
 </template>
 
 <script>
 import { getLocalStorageInstance } from '@tangjie/page-localstorage';
-
+console.log(getLocalStorageInstance);
 export default {
 	name: 'HelloWorld',
 	components: {
