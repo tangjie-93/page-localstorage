@@ -1,7 +1,9 @@
 {
-    "description": "这是一个用于页面间通信的库，用于不适用keep-alive进行缓存时的一种解决方案",
+    "description": "用于不适用keep-alive进行缓存时的一种解决方案。这是一个用于页面间通信的库，特别是在需要为这个页面存储很多项数据的时候，可以根据页面名称来操作存储在localStorage里面的数据",
     "keywords": [
-        "localstoage"
+        "localstoage",
+        "数据持久化",
+        "页面通信"
     ],
     "license": "MIT",
     "name": "@tangjie/page-localstorage",
@@ -10,7 +12,7 @@
         "type": "git",
         "url": ""
     },
-    "version": "1.0.5",
+    "version": "1.0.8",
     "directories": {
         "lib": "lib"
     },
