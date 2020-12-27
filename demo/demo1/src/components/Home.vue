@@ -16,7 +16,6 @@
 
 <script>
 import { getLocalStorageInstance } from '@tangjie/page-localstorage';
-console.log(getLocalStorageInstance);
 export default {
 	name: 'HelloWorld',
 	components: {
